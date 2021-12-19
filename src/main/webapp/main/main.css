@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* ------------------------- 메인 공통 태그 ---------------------------- */
+.wrapper {
+	width: 100%;
+	margin: 0px auto;
+	font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum,
+		'돋움', sans-serif;
+	/* background-color: #FFFFFF */
+}
+
+#navTab {
+	background-color: #000000;
+	color: #F5dF4D;
+	width: 1130px;
+	height: 50px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	vertical-align: middle;
+	display: table;
+	table-layout: fixed;
+	border: 1px soild #FFFF00
+}
+
+#logo {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#logoF {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+#textF {
+	font-size: 10px;
+	color: #FFFFFF;
+	margin-left: 25px
+}
+
+#linkLogin {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	float: right;
+	margin-top: 15px;
+}
+
+#linkResView {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px
+}
+
+#linkMyPage {
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px
+}
+
+/* div {
+	margin: 0px auto;
+	width: 1130px;
+}
+ */
+.navTd:hover {
+	background-color: #F5dF4D;
+	color: #000000;
+	cursor: pointer;
+}
+
+.divFooter {
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 1130px;
+	height: 200px;
+	margin: 0px auto;
+	vertical-align: bottom;
+	padding-top: 20px
+}
